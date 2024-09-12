@@ -7,8 +7,213 @@
     <link rel="stylesheet" href="css\styles.css">
 </head>
 
+<!-- Segitiga -->
 <body>
+    <header class="main-header">
+        <h1>Welcome to Katik</h1>
+        <p>Hai sobat selamat datang di Katik :)</p>
+        <p>Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</p>
+    </header>
+
+    <main>        
+        <section class="selection-content">
+            <button href="#" type="button" class="selection-btn bisque-color">Segitiga</button>
+            <button href="#" type="button" class="selection-btn aqua-color">Jajar Genjang</button>
+        </section>
+        
+        <section class="main-content">
+            <!-- Left Content -->
+            <aside>
+                <header> 
+                    <h1 class="luas-segitiga-header">Luas Segitiga</h1>
+                </header>
     
+                <article class="luas-segitiga-content">
+                    <div class="luas-segitiga-img"></div>
+                    <p>Rumus Luas Segitiga yaitu:</p>
+                    <p class="center-rumus">L=1/2 x a x t</p>
+                    <p>Di mana: <br>
+                        L = Luas<br>
+                        a = Panjang Alas<br>
+                        t = Tinggi 
+                        <hr />
+                    </p>
+                </article>
+
+                <hr />
+    
+                <form>
+                    <header>
+                        <h1 class="luas-segitiga-form-header">Hitung Luas Segitiga</h1>
+    
+                    </header>
+    
+                    <div class="input-wrapper">
+                        <label for="panjang-alas">Panjang Alas:</label>
+                        <input id="panjang-alas" type="number"/>
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="tinggi"> Tinggi:</label>
+                        <input id="tinggi" type="number" />
+                    </div>
+    
+                    <!-- Menampilkan hasil perhitungan luas segitiga -->
+                    <p id="result-luas-segitiga">Hasil Perhitungan Luas Segitiga:</p>                   
+
+                    <button class="hitung-btn">Hitung</button>
+                    <button class="reset-btn" type="reset">Reset</button>
+
+                </form>
+            </aside>     
+            <!-- Right content -->
+            <aside>
+                <header> 
+                    <h1 class="luas-segitiga-header">Keliling Segitiga</h1>
+                </header>
+    
+                <article class="luas-segitiga-content">
+                    <div class="luas-segitiga-img"></div>
+                    <p>Rumus Keliling Segitiga yaitu:</p>
+                    <p class="center-rumus">K = S1 + S2 + S3</p>
+                    <p>Di mana: <br>
+                        K = Keliling<br>
+                        S1 = Sisi A<br>
+                        S2 = Sisi B <br>
+                        S3 = Sisi C
+                        <br> 
+                        <hr /> 
+                </article> 
+    
+                <hr />
+    
+                <form>
+                    <header>
+                        <h1 class="luas-segitiga-form-header">Hitung Keliling Segitiga</h1>
+    
+                    </header>
+    
+                    <div class="input-wrapper">
+                        <label for="panjang-sisi-A">Panjang Sisi A:</label>
+                        <input id="panjang-sisi-A" type="number"/>
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="panjang-sisi-B"> Panjang Sisi B:</label>
+                        <input id="panjang-sisi-B" type="number" />
+                    </div>
+                    <div class="input-wrapper"></div>
+                        <label for="panjang-sisi-C">Panjang Sisi C:</label>
+                        <input id="panjang-sisi-C" type="number"/>
+                    </div>        
+
+                    <!-- Menampilkan hasil perhitungan keliling segitiga -->
+                    <p id="result-keliling-segitiga">Hasil Perhitungan Keliling Segitiga:</p>
+
+                    <button class="hitung-btn">Hitung</button>
+                    <button class="reset-btn" type="reset">Reset</button>
+                </form>
+            </aside>
+        </section>
+    
+<!-- Jajar Genjang -->
+    <hr class="custom-hr">
+    <body>
+        <header class="main-header">
+            <h1>Welcome to Katik</h1>
+            <p>Hai sobat selamat datang di Katik :)</p>
+            <p>Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</p>
+        </header>
+    <main></main>
+        <section class="selection-content">
+            <button href="#" type="button" class="selection-btn bisque-color">Segitiga</button>
+            <button href="#" type="button" class="selection-btn aqua-color">Jajar Genjang</button>
+        </section>
+    </main>
+
+    <section class="main-content">
+        <!-- Left content -->
+        <aside>
+            <header> 
+                <h1 class="luas-segitiga-header">Luas Jajar Genjang</h1>
+            </header>
+
+            <article class="luas-jajar-genjang-content">
+                <div class="luas-jajar-genjang-img"></div>
+                <p>Rumus Luas Jajar Genjang yaitu:</p>
+                <p class="center-rumus">L= a x t</p>
+                <p>Di mana: <br>
+                    a = Alas<br>
+                    t = Tinggi 
+                </p>
+            </article>
+
+            <hr />
+
+            <form>
+                <header>
+                    <h1 class="luas-jajar-genjang-form-header">Hitung Luas Jajar Genjang</h1>
+
+                </header>
+                <div class="input-wrapper">
+                    <label for="panjang-alas-jg">Panjang Alas:</label>
+                    <input id="panjang-alas-jg" type="number"/>
+                </div>
+                <div class="input-wrapper">
+                    <label for="tinggi-jg">Tinggi:</label>
+                    <input id="tinggi-jg" type="number" />
+                </div>
+
+                <!-- Menampilkan hasil luas jajar genjang -->
+                <p id="result-luas-jajar-genjang">Hasil Perhitungan Luas Jajar Genjang:</p>
+
+                <button class="hitung-btn">Hitung</button>
+                <button class="reset-btn" type="reset">Reset</button>
+
+            </form>
+        </aside>     
+
+        <!-- Right content -->
+        <aside>
+            <header> 
+                <h1 class="luas-segitiga-header">Keliling Jajar Genjang</h1>
+            </header>
+
+            <article class="luas-jajar-genjang-content">
+                <div class="luas-jajar-genjang-img"></div>
+                <p>Rumus Keliling Jajar Genjang yaitu:</p>
+                <p class="center-rumus">K = 2 x (a+b)</p>
+                <p>Di mana: <br>
+                    a = Panjang Sisi Alas<br>
+                    t = Panjanng Sisi Miring
+                </p>
+            </article>
+
+            <hr />
+
+            <form>
+                <header>
+                    <h1 class="luas-jajar-genjang-form-header">Hitung Keliling Jajar Genjang</h1>
+
+                </header>
+
+                <div class="input-wrapper">
+                    <label for="panjang-alas-keliling-jg">Panjang Sisi Alas:</label>
+                    <input id="panjang-alas-keliling-jg" type="number"/>
+                </div>
+                <div class="input-wrapper">
+                    <label for="sisi-miring-jg">Panjang Sisi Miring:</label>
+                    <input id="sisi-miring-jg" type="number" />
+                </div>
+
+                <!-- Menampilkan hasil perhitungan keliling jajar genjang -->
+                <p id="result-keliling-jajar-genjang">Hasil Perhitungan Keliling Jajar Genjang:</p>
+
+                <button class="hitung-btn">Hitung</button>
+                <button class="reset-btn" type="reset">Reset</button>
+
+            </form>
+        </aside>    
+        <script src="js/script.js"></script>
+
 </body>
 
 </html>

@@ -1,1 +1,164 @@
 /* ini css */
+
+.main-header {
+    text-align: center;
+} 
+
+.selection-content {
+    display: flex;
+    flex-direction: column;
+} 
+
+.selection-button {
+    height: 32px;
+    border: none;
+    border-radius: 8px;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.bisque-color {
+    background-color: bisque;
+}
+
+.aqua-color {
+    background-color: white;
+}
+
+.luas-segitiga-header {
+    border: 1px solid;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin: 0px;
+    background: cornflowerblue; 
+    text-align: center;
+} 
+
+.luas-segitiga-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.luas-segitiga-img {
+    height: 300px;
+    width: 300px;
+    background-image: url(https://i1.wp.com/asset.kompas.com/crops/ZwOr6ZrEtAtid5uZmYhDFijYPa4=/175x161:1573x1094/750x500/data/photo/2022/03/09/62288763c6d64.png);
+    background-size: cover;
+    background-position: center;
+    align-self: center;
+}
+
+.luas-segitiga-form-header {
+    text-align: center;
+}
+
+.input-wrapper {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-wrapper>input {
+    width: 65%;
+}
+
+input[type=number] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.main-content {
+    display: flex;
+}
+
+.main-content>aside {
+    flex: 1;
+}
+
+.center-rumus {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+article p {
+    line-height: 1.5; 
+}
+
+.hitung-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hitung-btn:hover {
+    background-color: darkblue;
+}
+
+form {
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.hitung-btn:hover {
+    background-color: darkblue;
+}
+
+.reset-btn {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reset-btn:hover {
+    background-color: darkorange;
+}
+
+.custom-hr {
+    width: 100%; 
+    border: none; 
+    height: 2px; 
+    background-color: black; 
+    margin: 20px 0; 
+}
+
+/* jajar genjang */
+.luas-jajar-genjang-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.luas-jajar-genjang-img {
+    height: 300px;
+    width: 300px;
+    background-image: url(https://asset-a.grid.id/crop/0x0:0x0/x/photo/2021/07/01/jajar-genjang-2jpg-2021020909520-20210701074505.jpg);
+    background-size: cover;
+    background-position: center;
+    align-self: center;
+}
+
+.luas-jajar-genjang-form-header {
+    text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+    .main-content {
+        flex-direction: column;
+    }
+}
